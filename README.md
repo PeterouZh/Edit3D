@@ -20,7 +20,7 @@ pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 pip install ninja
 
-pushd GaussianEditor_lib
+pushd edit_3dgs/GaussianEditor
 pip install -r requirements_2.txt
 pip install Pillow==9.5.0
 
@@ -39,8 +39,6 @@ pip install viser
 pip install torch_efficient_distloss
 pip install mediapy
 pip install plyfile
-#pip uninstall torch torchvision
-pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
 
 popd 
 popd
@@ -51,8 +49,8 @@ pip install --ignore-installed -e viser
 popd
 
 pip install mediapipe
-
-pip install git+https://github.com/salesforce/LAVIS.git
+pip install spacy==3.7.5
+pip install git+https://github.com/salesforce/LAVIS.git@v1.0.1
 pip install transformers==4.25
 
 
