@@ -7,7 +7,7 @@
 The code will be prepared and open-sourced here by mid-October 2024, in advance of the conference starting on October 28, 2024.
 
 
-# Gaussian splatting
+# Edit 3D gaussian splatting
 
 ## Envs 
 
@@ -55,3 +55,7 @@ pip install transformers==4.25
 
 
 ```
+
+## Training
+
+**TODO** 2024/12/31
