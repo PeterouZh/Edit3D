@@ -22,6 +22,7 @@ class BaseSystem(pl.LightningModule, Updateable, SaverMixin):
     class Config:
         loggers: dict = field(default_factory=dict)
         loss: dict = field(default_factory=dict)
+        adss: dict = field(default_factory=dict)
         optimizer: dict = field(default_factory=dict)
         scheduler: Optional[dict] = None
         weights: Optional[str] = None
