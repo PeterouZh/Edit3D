@@ -1,12 +1,5 @@
 # Edit3D
 
-:heart: **[2024/12/3]** Due to unforeseen delays, the open-source code will now be released in late December 2024. We are actively working to finalize it, and we appreciate your patience and understanding.
-
-[2024/10/30] Due to unexpected scheduling constraints, the release of the open-source code will be delayed by 2-4 weeks. Thank you for your patience and understanding.
-
-The code will be prepared and open-sourced here by mid-October 2024, in advance of the conference starting on October 28, 2024.
-
-
 # Edit 3D gaussian splatting
 
 ## Envs 
@@ -58,7 +51,8 @@ pip install spacy==3.7.5
 pip install git+https://github.com/salesforce/LAVIS.git@v1.0.1
 pip install transformers==4.25
 pip install huggingface-hub==0.23.3
-pip install lang-sam==0.1.0
+
+pip install pySciTools
 
 ```
 
@@ -82,6 +76,7 @@ python -c "from scripts.test_edit3d import Testing_edit3dgs;\
       
 ```
 
+<img src=".data/face.gif" width=600>
 
 ### Edit 3dgs face & hair
 
@@ -89,7 +84,8 @@ python -c "from scripts.test_edit3d import Testing_edit3dgs;\
 export CUDA_VISIBLE_DEVICES=0
 python -c "from scripts.test_edit3d import Testing_edit3dgs;\
       Testing_edit3dgs().test_edit3dgs_face_hair(debug=False)"
-      
+
+# convert -delay 30 -loop 0 save/it1500-test/*.png face_hair.gif
 ```
 
 <img src=".data/face_hair.gif" width=600>
