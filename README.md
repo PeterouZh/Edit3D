@@ -64,6 +64,15 @@ pip install lang-sam==0.1.0
 
 ## Training
 
+## Download datasets 
+
+[CACHE_DIR.zip](https://1drv.ms/u/c/5240e76ec7fdaf3d/Ee46eLUa2z5MousMFtr5Zq0BaVcpIvREKeDs5O8fqmGoEQ?e=zljr3U)
+
+```bash
+unzip CACHE_DIR.zip
+```
+
+
 ### Edit 3dgs face
 
 ```bash
@@ -73,6 +82,7 @@ python -c "from scripts.test_edit3d import Testing_edit3dgs;\
       
 ```
 
+
 ### Edit 3dgs face & hair
 
 ```bash
@@ -81,3 +91,5 @@ python -c "from scripts.test_edit3d import Testing_edit3dgs;\
       Testing_edit3dgs().test_edit3dgs_face_hair(debug=False)"
       
 ```
+
+<img src=".data/face_hair.gif" width=600>

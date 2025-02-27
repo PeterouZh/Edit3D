@@ -6,3 +6,4 @@ outputs/
 threestudio/
 results/
 .threestudio_cache/
+CACHE_DIR*
