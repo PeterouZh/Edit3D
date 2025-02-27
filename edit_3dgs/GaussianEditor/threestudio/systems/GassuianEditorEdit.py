@@ -12,7 +12,7 @@ from threestudio.utils.clip_metrics import ClipSimilarity
 
 from threestudio.utils.misc import get_device
 from threestudio.systems.GassuianEditor import GaussianEditor
-from gaussian_editor.text_segmentation_cli import TextSegmentation
+from edit_3dgs.text_segmentation_cli import TextSegmentation
 
 
 @threestudio.register("gsedit-system-edit")

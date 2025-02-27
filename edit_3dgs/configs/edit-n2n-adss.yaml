@@ -46,7 +46,7 @@ system:
     ts_blur: True
     ts_thresh: 150
     ts_model_type: 'vit_h'
-    ts_sam_checkpoint: 'cache_pretrained/pretrained/sam_vit_h_4b8939.pth'
+    ts_sam_checkpoint: 'CACHE_DIR/sam_vit_h_4b8939.pth'
     ts_use_default_sam: True
     ts_points_per_side: 8
     ts_pred_iou_thresh: 0.99
