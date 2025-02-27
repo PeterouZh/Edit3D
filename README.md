@@ -40,7 +40,6 @@ pip install plyfile
 
 popd 
 popd
-mkdir third_party
 pushd third_party
 git clone https://github.com/heheyas/viser
 pip install --ignore-installed -e viser
